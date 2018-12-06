@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-from day05.day05 import react_polymer, remove_unit_and_react
+from day05 import full_react, delete_units_and_react
 
 
 def main():
-
-    '''
-    # day05
-    react_polymer('input.txt')
-    remove_unit_and_react('input.txt')
-    '''
+    # day05a
+    print('05a - ' + str(full_react()))
+    print('05b - ' + str(delete_units_and_react()))
     return
+
+
 main()
+
